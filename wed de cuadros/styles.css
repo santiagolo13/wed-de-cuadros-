@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&display=swaop");
+                                                                                           
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-skip: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: "poppins",sans-serif;
+    background-color: rgb(12, 12, 12);
+}
+
+img {
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(imagenes/bestia-dragon-mitica-estilo-anime_23-2151112840.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.san edition{
+    color: blue;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(192, 17, 17);
+    font-weight: 600;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: aqua;
+}
